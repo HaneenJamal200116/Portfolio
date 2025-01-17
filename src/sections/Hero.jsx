@@ -71,102 +71,102 @@ const Hero = () => {
                                 scale={0.06}/>
                                 }
                                 
-                                {
-    isSmall ? (
-        <>
-            <HeadPhones scale={0} />
-             <Mug
-                        position={[1, -1.85, 3.8]}
-                        rotation={[0, 1, 0]}
-                        scale={0.7}
-                    /> 
-            <Keyboard  position={[2.7, -1, 7.2]}  
-                        rotation={[0, 1.14, 0]}  
-                        scale={7.5} />
-            <Mouse  rotation={[-0.2, 4.5, -0.1]}
-                        position={[1.6, -1.8, 5.3]}
-                        scale={0.08}/>
-            <Butterfly  rotation={[-0.2, -1, 0.2]}
-                        position={[1.9, 0.7, 6.8]}
-                        scale={0.3} />
-        </>
-    ) : (
-        <>
-            {
-                isMobile ? (
-                    <HeadPhones
-                        rotation={[-2, -6.2, -4]}
-                        position={[2, -1.5, 8.9]}
-                        scale={0.2}
-                    />
-                ) : (
-                    <HeadPhones
-                        rotation={[-2, -6.2, -5]}
-                        position={[-2.9, -0.5, 1.6]}
-                        scale={0.3}
-                    />
-                )
-            }
-            {
-                isMobile ? (
-                    <Mug
-                        position={[1.9, -2.3, 3.8]}
-                        rotation={[0, 1, 0]}
-                        scale={0.9}
-                    />
-                ) : (
-                    <Mug
-                        position={[2.5, -0.9, 0.4]}
-                    />
-                )
-            }
-            {
-                isMobile ? (
-                    <Keyboard
-                        position={[3.4, -1, 7.6]}
-                        rotation={[0, 1.14, 0]}
-                        scale={9}
-                    />
-                ) : (
-                    <Keyboard
-                        position={[-0.5, -0.6, 1.2]}
-                        scale={12}
-                    />
-                )
-            }
-            {
-                isMobile ? (
-                    <Mouse
-                        rotation={[-0.2, 4.5, -0.1]}
-                        position={[2, -2, 5.2]}
-                        scale={0.1}
-                    />
-                ) : (
-                    <Mouse
-                        rotation={[-0.2, 3.2, 0]}
-                        position={[1.3, -0.86, 1.2]}
-                        scale={0.1}
-                    />
-                )
-            }
-            {
-                isMobile ? (
-                    <Butterfly
-                        rotation={[-0.2, -1, 0.2]}
-                        position={[1.9, 0.9, 6.8]}
-                        scale={0.3}
-                    />
-                ) : (
-                    <Butterfly
-                        rotation={[-0.2, -1, 0.2]}
-                        position={[1.9, 1.1, 6.8]}
-                        scale={0.3}
-                    />
-                )
-            }
-        </>
-    )
-}
+                                                            {
+                                isSmall ? (
+                                    <>
+                                        <HeadPhones scale={0} />
+                                        <Mug
+                                                    position={[1, -1.85, 3.8]}
+                                                    rotation={[0, 1, 0]}
+                                                    scale={0.7}
+                                                /> 
+                                        <Keyboard  position={[2.7, -1, 7.2]}  
+                                                    rotation={[0, 1.14, 0]}  
+                                                    scale={7.5} />
+                                        <Mouse  rotation={[-0.2, 4.5, -0.1]}
+                                                    position={[1.6, -1.8, 5.3]}
+                                                    scale={0.08}/>
+                                        <Butterfly  rotation={[-0.2, -1, 0.2]}
+                                                    position={[1.9, 0.7, 6.8]}
+                                                    scale={0.3} />
+                                    </>
+                                ) : (
+                                    <>
+                                        {
+                                            isMobile ? (
+                                                <HeadPhones
+                                                    rotation={[-2, -6.2, -4]}
+                                                    position={[2, -1.5, 8.9]}
+                                                    scale={0.2}
+                                                />
+                                            ) : (
+                                                <HeadPhones
+                                                    rotation={[-2, -6.2, -5]}
+                                                    position={[-2.9, -0.5, 1.6]}
+                                                    scale={0.3}
+                                                />
+                                            )
+                                        }
+                                        {
+                                            isMobile ? (
+                                                <Mug
+                                                    position={[1.9, -2.3, 3.8]}
+                                                    rotation={[0, 1, 0]}
+                                                    scale={0.9}
+                                                />
+                                            ) : (
+                                                <Mug
+                                                    position={[2.5, -0.9, 0.4]}
+                                                />
+                                            )
+                                        }
+                                        {
+                                            isMobile ? (
+                                                <Keyboard
+                                                    position={[3.4, -1, 7.6]}
+                                                    rotation={[0, 1.14, 0]}
+                                                    scale={9}
+                                                />
+                                            ) : (
+                                                <Keyboard
+                                                    position={[-0.5, -0.6, 1.2]}
+                                                    scale={12}
+                                                />
+                                            )
+                                        }
+                                        {
+                                            isMobile ? (
+                                                <Mouse
+                                                    rotation={[-0.2, 4.5, -0.1]}
+                                                    position={[2, -2, 5.2]}
+                                                    scale={0.1}
+                                                />
+                                            ) : (
+                                                <Mouse
+                                                    rotation={[-0.2, 3.2, 0]}
+                                                    position={[1.3, -0.86, 1.2]}
+                                                    scale={0.1}
+                                                />
+                                            )
+                                        }
+                                        {
+                                            isMobile ? (
+                                                <Butterfly
+                                                    rotation={[-0.2, -1, 0.2]}
+                                                    position={[1.9, 0.9, 6.8]}
+                                                    scale={0.3}
+                                                />
+                                            ) : (
+                                                <Butterfly
+                                                    rotation={[-0.2, -1, 0.2]}
+                                                    position={[1.9, 1.1, 6.8]}
+                                                    scale={0.3}
+                                                />
+                                            )
+                                        }
+                                    </>
+                                )
+                            }
 
                             
 
