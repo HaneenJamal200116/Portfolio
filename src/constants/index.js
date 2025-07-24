@@ -113,32 +113,45 @@ export const navLinks = [
     };
   };
   
-  export const workExperiences = [
-    {
-      id: 1,
-      name: 'Orange Fablab',
-      pos: 'Trainee',
-      duration: '2024',
-      title: "Orange FabLab is a creative workspace powered by Orange, offering tools and resources for innovation, prototyping, and learning. It supports individuals in exploring 3D printing, laser cutting, and electronics to bring their ideas to life.",
-      icon: '/assets/orange.png',
-      animation: 'salute',
-    },
-    {
-      id: 2,
-      name: 'Manara Tech',
-      pos: 'Intern',
-      duration: '2023 - Current',
-      title: "Manara is a career accelerator that connects top tech talent from the Middle East and North Africa with global opportunities. It provides intensive training, mentorship from industry leaders, and tailored career support to help participants excel in software engineering roles at leading tech companies.",
-      icon: '/assets/manara.png',
-      animation: 'clapping',
-    },
-    {
-      id: 3,
-      name: 'Clever Mind POB',
-      pos: 'Full Stack Web Developer Intern',
-      duration: '2023 - 2024',
-      title: "Clevermind is a tech company specializing in innovative web and mobile app development, delivering custom, scalable solutions for businesses.",
-      icon: '/assets/clevermind.png',
-      animation: 'salute',
-    },
-  ];
+ export const workExperiences = [
+  {
+    id: 1,
+    name: 'Scandiweb',
+    pos: 'Junior Web Developer',
+    duration: '2024 - Current',
+    title:
+      "Scandiweb is a global full-service eCommerce agency providing end-to-end solutions for Magento, Shopify, and headless commerce platforms. At Scandiweb, I contributed to real-world Magento projects, collaborated with international teams, and worked on tasks involving PHP, JavaScript, and cloud infrastructure.",
+    icon: '/assets/scandiweb.png',
+    animation: 'clapping',
+  },
+  {
+    id: 2,
+    name: 'Orange Fablab',
+    pos: 'Trainee',
+    duration: '2024',
+    title:
+      "Orange FabLab is a creative workspace powered by Orange, offering tools and resources for innovation, prototyping, and learning. It supports individuals in exploring 3D printing, laser cutting, and electronics to bring their ideas to life.",
+    icon: '/assets/orange.png',
+    animation: 'salute',
+  },
+  {
+    id: 3,
+    name: 'Manara Tech',
+    pos: 'Intern',
+    duration: '2023 - Current',
+    title:
+      "Manara is a career accelerator that connects top tech talent from the Middle East and North Africa with global opportunities. It provides intensive training, mentorship from industry leaders, and tailored career support to help participants excel in software engineering roles at leading tech companies.",
+    icon: '/assets/manara.png',
+    animation: 'clapping',
+  },
+  {
+    id: 4,
+    name: 'Clever Mind POB',
+    pos: 'Full Stack Web Developer Intern',
+    duration: '2023 - 2024',
+    title:
+      "Clevermind is a tech company specializing in innovative web and mobile app development, delivering custom, scalable solutions for businesses.",
+    icon: '/assets/clevermind.png',
+    animation: 'salute',
+  },
+];
