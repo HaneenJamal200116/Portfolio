@@ -118,7 +118,7 @@ export const navLinks = [
     id: 1,
     name: 'Scandiweb',
     pos: 'Junior Web Developer',
-    duration: '2024 - Current',
+    duration: '2025',
     title:
       "Scandiweb is a global full-service eCommerce agency providing end-to-end solutions for Magento, Shopify, and headless commerce platforms. At Scandiweb, I contributed to real-world Magento projects, collaborated with international teams, and worked on tasks involving PHP, JavaScript, and cloud infrastructure.",
     icon: '/assets/scandiweb.png',
